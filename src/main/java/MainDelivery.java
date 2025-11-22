@@ -1,5 +1,7 @@
 public class MainDelivery {
     public static void main(String[] args) {
-        System.out.println("HI JOHN");
+        Saller saller = new Saller("Martynov Albert", 214011);
+        saller.showInformation();
+
     }
 }
